@@ -6,9 +6,9 @@
 
 proxy-providers:
 
-  聚合订阅这里填写你自己的机场名称:
+  这里填写你自己的机场名称（多个机场复制粘贴第9行-第17行）:
     url: "这里填写你自己的订阅链接"  
-    type: http
+    输入: http
     interval: 86400
     health-check:
       enable: true
@@ -388,3 +388,4 @@ rule-providers:
 #  Google / Domain: {<<: *domain, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/google.mrs"}  
 #  Google / IP: {<<: *ip, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geoip/google.mrs"}
 #  GateFireWall / Domain: {<<: *domain, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/gfw.mrs"}
+
